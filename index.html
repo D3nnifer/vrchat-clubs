@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VRChat Clubs</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: system-ui, sans-serif;
+      background: #0f0f13;
+      color: #e8e8f0;
+      min-height: 100vh;
+    }
+
+    header {
+      padding: 2.5rem 1.5rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      letter-spacing: 0.05em;
+      background: linear-gradient(135deg, #a78bfa, #60a5fa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    header p {
+      margin-top: 0.5rem;
+      color: #9090a8;
+      font-size: 0.95rem;
+    }
+
+    .month-section {
+      max-width: 1100px;
+      margin: 2rem auto;
+      padding: 0 1.5rem;
+    }
+
+    .month-section h2 {
+      font-size: 1.1rem;
+      color: #a78bfa;
+      margin-bottom: 1rem;
+      border-bottom: 1px solid #2a2a3a;
+      padding-bottom: 0.4rem;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 1rem;
+    }
+
+    .gallery a {
+      display: block;
+      border-radius: 10px;
+      overflow: hidden;
+      border: 2px solid transparent;
+      transition: border-color 0.2s, transform 0.2s;
+    }
+
+    .gallery a:hover {
+      border-color: #a78bfa;
+      transform: translateY(-3px);
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      color: #555568;
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>VRChat Clubs</h1>
+  <p>Screenshots from our club events</p>
+</header>
+
+<main>
+  <section class="month-section">
+    <h2>February 2026</h2>
+    <div class="gallery">
+      <a href="2026-02/VRChat_2026-02-20_02-51-11.241_1920x1080.png" target="_blank">
+        <img src="2026-02/VRChat_2026-02-20_02-51-11.241_1920x1080.png"
+             alt="VRChat club event screenshot, Feb 20 2026 at 02:51" loading="lazy" />
+      </a>
+      <a href="2026-02/VRChat_2026-02-20_05-04-50.394_1920x1080.png" target="_blank">
+        <img src="2026-02/VRChat_2026-02-20_05-04-50.394_1920x1080.png"
+             alt="VRChat club event screenshot, Feb 20 2026 at 05:04" loading="lazy" />
+      </a>
+      <a href="2026-02/VRChat_2026-02-22_08-40-12.692_1920x1080.png" target="_blank">
+        <img src="2026-02/VRChat_2026-02-22_08-40-12.692_1920x1080.png"
+             alt="VRChat club event screenshot, Feb 22 2026 at 08:40" loading="lazy" />
+      </a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  VRChat Clubs &mdash; hosted on GitHub Pages
+</footer>
+
+</body>
+</html>
